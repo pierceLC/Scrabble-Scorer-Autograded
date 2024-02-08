@@ -109,6 +109,7 @@ function runProgram() {
    console.log(`Score for '${word}': ${selectedScorer.scorerFunction(word)}`);
 }
 
+
 runProgram();
 // Don't write any code below this line //
 // And don't change these or your program will not run as expected //
