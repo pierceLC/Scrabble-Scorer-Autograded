@@ -33,7 +33,7 @@ function oldScrabbleScorer(word) {
 // don't change the names or your program won't work as expected. //
 
 function initialPrompt() {
-   console.log("Let's play some Scrabble! Enter a word:");
+   console.log("Let's play some Scrabble! ");
 }
 
 let simpleScorer = function(word) {
@@ -109,8 +109,6 @@ function runProgram() {
    console.log(`Score for '${word}': ${selectedScorer.scorerFunction(word)}`);
 }
 
-
-runProgram();
 // Don't write any code below this line //
 // And don't change these or your program will not run as expected //
 module.exports = {
